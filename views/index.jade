@@ -28,6 +28,8 @@ html(ng-app='LegendaryApp')
       
     #randomized(ng-controller="FormController")
       h2 Randomized Deck!
+        h5(ng-repeat="hench in randomized.henchmen")
+      h4 {{randomized.bystanders}}
     
     
     script(src="/js/decks.js")

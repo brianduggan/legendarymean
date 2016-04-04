@@ -176,6 +176,5 @@ app.controller('FormController', ['$scope', function($scope){
     henchPicker(masterDeck.henchmen);
     villPicker(masterDeck.villains);
     console.log(randomDeck);
-  } //end get settings
-
+  }
 }]);
